@@ -56,7 +56,7 @@ p {
 /* class styles */
 
 /* styling the QR card as a flex container. */
-.container {
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,10 +75,10 @@ p {
 }
 
 /* moved the style out of the HTML and added to styles.css to eliminate crowding HTML. */
-.attribution {
+footer{
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
