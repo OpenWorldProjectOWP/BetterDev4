@@ -20,7 +20,7 @@ This is my solution to a challenge given by frontend mentor. The challenge was t
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-EgM_j73pT2)
 - Live Site URL: [Vercel](https://better-dev4.vercel.app/)
 
 ## My process
