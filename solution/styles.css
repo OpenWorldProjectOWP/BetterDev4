@@ -1,0 +1,84 @@
+/* setting up some style variables to simplify any future changes. */
+
+:root {
+  /* colors */
+  --White: hsl(0, 0%, 100%);
+  --bdbg: hsl(212, 45%, 89%);
+  --text: hsl(220, 15%, 55%);
+  --DB: hsl(218, 44%, 22%);
+  --BS: rgba(138, 148, 168, 0.2);
+
+  /* typography */
+  --Ff: "Outfit", sans-serif;
+  /* weights 400 <p> 700 for <h1> */
+}
+
+/* semantic styles */
+
+/* Resetting any default styling to the page. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* setting the background color for the whole page. */
+body {
+  background-color: var(--bdbg);
+}
+
+/* setting size and shape of image. */
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* styling the <h1> element just below the image. */
+h1 {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  color: var(--DB);
+  font-family: var(--Ff);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* styling the <p> element just below the heading. */
+p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: var(--text);
+  font-family: var(--Ff);
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+/* class styles */
+
+/* styling the QR card as a flex container. */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* styling all content held within the flex container. */
+.content {
+  border-radius: 15px;
+  background-color: var(--White);
+  padding: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 3px 4px var(--BS); /* added an extra style to add a little dimension to the card */
+}
+
+/* moved the style out of the HTML and added to styles.css to eliminate crowding HTML. */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
